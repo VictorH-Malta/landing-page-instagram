@@ -33,11 +33,14 @@ body {
 }
 
 .instagram-phone img {
-   height: 50rem; 
+   height: auto; 
+   width: auto;
 }
 
 .instagram-logo img {
     width: 20rem;
+}
 
-
+.instagram-continue {
+    padding: 10rem;
 }
