@@ -5,12 +5,13 @@
     box-sizing: border-box;
     font-family: sans-serif;
     font-size: 14px;
+    color: white;
 }
 
 body {
     width: 100%;
     min-height: 100vh;
-    background-color: #ffffff;
+    background-color: #000000;
     margin: 0;
     padding: 0;
     display: flex;
@@ -30,17 +31,46 @@ body {
     align-items: center;
     justify-content: center;
     width: 50%;
+
 }
 
 .instagram-phone img {
-   height: auto; 
-   width: auto;
+   height: 67%;
+}
+
+#perfil-exemplo {
+    margin-left: 6.2rem;
+    margin-top: 0.65rem;
+    position: absolute;
+    z-index: 1;
+    border: 1px solid black;
+    border-bottom: 2px solid black;
 }
 
 .instagram-logo img {
-    width: 20rem;
+    width: 10rem;
 }
 
 .instagram-continue {
-    padding: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.account-change {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: #000000;
+    padding-bottom: 1.3rem;
+    border: 1px solid lightgray;
+    border-radius: 1%;
 }
